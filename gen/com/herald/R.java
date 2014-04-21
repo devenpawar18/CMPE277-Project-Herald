@@ -120,48 +120,49 @@ containing a value of this type.
     }
     public static final class id {
         public static final int abstract_key=0x7f07000b;
-        public static final int action_settings=0x7f07002b;
-        public static final int c_temp=0x7f07001f;
-        public static final int c_temp_layout=0x7f07001e;
-        public static final int c_temp_value=0x7f070020;
+        public static final int action_settings=0x7f07002c;
+        public static final int c_temp=0x7f070020;
+        public static final int c_temp_layout=0x7f07001f;
+        public static final int c_temp_value=0x7f070021;
         public static final int cf=0x7f070005;
-        public static final int contentWebView=0x7f07002a;
-        public static final int desc=0x7f07001c;
-        public static final int desc_value=0x7f07001d;
-        public static final int description_layout=0x7f07001b;
-        public static final int faceBook=0x7f070011;
-        public static final int feed=0x7f070013;
-        public static final int humidity=0x7f070028;
-        public static final int humidity_layout=0x7f070027;
-        public static final int humidity_value=0x7f070029;
+        public static final int contentWebView=0x7f07002b;
+        public static final int desc=0x7f07001d;
+        public static final int desc_value=0x7f07001e;
+        public static final int description_layout=0x7f07001c;
+        public static final int faceBook=0x7f070010;
+        public static final int feed=0x7f070014;
+        public static final int humidity=0x7f070029;
+        public static final int humidity_layout=0x7f070028;
+        public static final int humidity_value=0x7f07002a;
         public static final int id_name=0x7f070000;
         public static final int item=0x7f070002;
         public static final int l1=0x7f070003;
-        public static final int mail=0x7f070012;
-        public static final int main=0x7f070019;
+        public static final int linked_in=0x7f070012;
+        public static final int mail=0x7f070013;
+        public static final int main=0x7f07001a;
         public static final int main_layout=0x7f070008;
-        public static final int main_value=0x7f07001a;
-        public static final int max_temp=0x7f070025;
-        public static final int max_temp_layout=0x7f070024;
-        public static final int max_temp_value=0x7f070026;
-        public static final int min_temp=0x7f070022;
-        public static final int min_temp_layout=0x7f070021;
-        public static final int min_temp_value=0x7f070023;
+        public static final int main_value=0x7f07001b;
+        public static final int max_temp=0x7f070026;
+        public static final int max_temp_layout=0x7f070025;
+        public static final int max_temp_value=0x7f070027;
+        public static final int min_temp=0x7f070023;
+        public static final int min_temp_layout=0x7f070022;
+        public static final int min_temp_value=0x7f070024;
         public static final int news_abstract=0x7f07000c;
         public static final int news_category=0x7f070004;
         public static final int news_id=0x7f070001;
         public static final int news_list_view=0x7f07000e;
         public static final int no_data=0x7f07000f;
         public static final int pager=0x7f070006;
-        public static final int parent_layout=0x7f070016;
-        public static final int spash_image=0x7f070015;
-        public static final int submit=0x7f070014;
+        public static final int parent_layout=0x7f070017;
+        public static final int spash_image=0x7f070016;
+        public static final int submit=0x7f070015;
         public static final int text=0x7f070007;
         public static final int title=0x7f07000a;
         public static final int title_key=0x7f070009;
-        public static final int twitter=0x7f070010;
-        public static final int weather_icon=0x7f070017;
-        public static final int weather_name_layout=0x7f070018;
+        public static final int twitter=0x7f070011;
+        public static final int weather_icon=0x7f070018;
+        public static final int weather_name_layout=0x7f070019;
         public static final int web_site=0x7f07000d;
     }
     public static final class layout {
@@ -182,22 +183,23 @@ containing a value of this type.
     public static final class string {
         public static final int action_settings=0x7f080001;
         public static final int app_name=0x7f080000;
-        public static final int area=0x7f08000e;
-        public static final int city=0x7f08000f;
-        public static final int data_not_found=0x7f080006;
+        public static final int area=0x7f08000f;
+        public static final int city=0x7f080010;
+        public static final int data_not_found=0x7f080007;
         public static final int hello_world=0x7f080002;
-        public static final int humidity=0x7f08000d;
-        public static final int max_tem=0x7f08000c;
-        public static final int min_tem=0x7f08000b;
+        public static final int humidity=0x7f08000e;
+        public static final int max_tem=0x7f08000d;
+        public static final int min_tem=0x7f08000c;
         public static final int share_email=0x7f080005;
         public static final int share_facebook=0x7f080003;
+        public static final int share_linkedin=0x7f080006;
         public static final int share_twitter=0x7f080004;
-        public static final int temperature=0x7f08000a;
-        public static final int weather_desc=0x7f080009;
-        public static final int weather_main=0x7f080008;
+        public static final int temperature=0x7f08000b;
+        public static final int weather_desc=0x7f08000a;
+        public static final int weather_main=0x7f080009;
         /**  Weather Activity 
          */
-        public static final int weather_title=0x7f080007;
+        public static final int weather_title=0x7f080008;
     }
     public static final class style {
         /** 

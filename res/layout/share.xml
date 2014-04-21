@@ -5,6 +5,18 @@
     android:orientation="vertical" >
 
     <Button
+        android:id="@+id/faceBook"
+        android:layout_width="230dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dip"
+        android:text="@string/share_facebook"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold" >
+    </Button>
+
+    <Button
         android:id="@+id/twitter"
         android:layout_width="230dip"
         android:layout_height="wrap_content"
@@ -17,12 +29,12 @@
     </Button>
 
     <Button
-        android:id="@+id/faceBook"
+        android:id="@+id/linked_in"
         android:layout_width="230dip"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="10dip"
-        android:text="@string/share_facebook"
+        android:text="@string/share_linkedin"
         android:textColor="@color/white"
         android:textSize="15sp"
         android:textStyle="bold" >

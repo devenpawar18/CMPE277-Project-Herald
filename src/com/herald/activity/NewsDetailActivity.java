@@ -57,6 +57,7 @@ public class NewsDetailActivity extends Activity implements OnGestureListener,
 	private GestureDetector detector = new GestureDetector(this);
 
 	private Button mTwitter;
+	private Button mLinkedIn;
 	private Button mMail;
 	private Button mFaceBook;
 	private Dialog dialog;
@@ -203,6 +204,45 @@ public class NewsDetailActivity extends Activity implements OnGestureListener,
 					}
 				}
 			});
+
+			/**
+			 * Share News via LinkedIn
+			 */
+			mLinkedIn = (Button) dialog.findViewById(R.id.linked_in);
+			mLinkedIn.setOnClickListener(new View.OnClickListener() {
+				@Override
+				public void onClick(View v) {
+					dialog.dismiss();
+					Intent tweetIntent = new Intent(Intent.ACTION_SEND);
+					tweetIntent.putExtra(Intent.EXTRA_TEXT, news.getUrl());
+					tweetIntent.setType("text/plain");
+
+					PackageManager packManager = getPackageManager();
+					List<ResolveInfo> resolvedInfoList = packManager
+							.queryIntentActivities(tweetIntent,
+									PackageManager.MATCH_DEFAULT_ONLY);
+
+					boolean resolved = false;
+					for (ResolveInfo resolveInfo : resolvedInfoList) {
+						if (resolveInfo.activityInfo.packageName
+								.startsWith("com.linkedin.android")) {
+							tweetIntent.setClassName(
+									resolveInfo.activityInfo.packageName,
+									resolveInfo.activityInfo.name);
+							resolved = true;
+							break;
+						}
+					}
+					if (resolved) {
+						startActivity(tweetIntent);
+					} else {
+						Toast.makeText(NewsDetailActivity.this,
+								"LinkedIn app isn't found", Toast.LENGTH_LONG)
+								.show();
+					}
+				}
+			});
+
 			/**
 			 * Share News via email
 			 */
