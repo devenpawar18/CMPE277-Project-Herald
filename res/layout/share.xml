@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/twitter"
+        android:layout_width="230dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dip"
+        android:text="@string/share_twitter"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold" >
+    </Button>
+
+    <Button
+        android:id="@+id/faceBook"
+        android:layout_width="230dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dip"
+        android:text="@string/share_facebook"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold" >
+    </Button>
+
+    <Button
+        android:id="@+id/mail"
+        android:layout_width="230dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dip"
+        android:text="@string/share_email"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold" >
+    </Button>
+
+</LinearLayout>

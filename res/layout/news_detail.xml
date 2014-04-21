@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" >
+
+        <TextView
+            android:id="@+id/title_key"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dip"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="20dip"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="Title:"
+            android:textColor="@color/yello_dark"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title_key"
+            android:layout_marginBottom="5dip"
+            android:layout_marginRight="10dip"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:padding="15dip"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/abstract_key"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_marginBottom="20dip"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="40dip"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="News Abstract:"
+            android:textColor="@color/yello_dark"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/news_abstract"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/abstract_key"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="10dip"
+            android:gravity="center_vertical"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/web_site"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/main_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dip"
+        android:text="Go to Source"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+</RelativeLayout>

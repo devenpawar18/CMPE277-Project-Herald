@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/l1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:background="#D3D3D3"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/news_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:gravity="center"
+        android:padding="10dip"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <com.herald.views.CoverFlow
+        android:id="@+id/cf"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/black" />
+
+</LinearLayout>

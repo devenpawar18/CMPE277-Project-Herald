@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item name="id_name" type="id"/>
+    <item name="news_id" type="id"/>
+
+</resources>

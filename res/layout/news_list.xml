@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    tools:context=".EventsActivity" >
+
+    <ListView
+        android:id="@+id/news_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="#00000000"
+        android:divider="@color/grey_dark_color"
+        android:dividerHeight="1dip"
+        android:visibility="visible" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/no_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_horizontal"
+        android:padding="15dip"
+        android:text="@string/data_not_found"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+</RelativeLayout>

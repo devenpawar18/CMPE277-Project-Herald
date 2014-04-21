@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Herald</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="share_facebook">Facebook</string>
+    <string name="share_twitter">Twitter</string>
+    <string name="share_email">Email</string>
+    <string name="data_not_found">Data not found</string>
+
+    <!-- Weather Activity -->
+    <string name="weather_title">Weather at </string>
+    <string name="weather_main">Weather:</string>
+    <string name="weather_desc">Description:</string>
+    <string name="temperature">Temperature:</string>
+    <string name="min_tem">Min. Temperature:</string>
+    <string name="max_tem">Max. Temperature:</string>
+    <string name="humidity">Humidity:</string>
+    <string name="area">area</string>
+    <string name="city">city:</string>
+
+</resources>
