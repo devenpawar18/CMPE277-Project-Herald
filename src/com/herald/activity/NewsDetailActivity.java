@@ -274,15 +274,6 @@ public class NewsDetailActivity extends Activity implements OnGestureListener,
 		return super.onCreateDialog(id);
 	}
 
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		/**
-		 * Inflate the menu; this adds items to the action bar if it is present.
-		 */
-		getMenuInflater().inflate(R.menu.herald_home, menu);
-		return true;
-	}
-
 	/**
 	 * Handles back press
 	 */
