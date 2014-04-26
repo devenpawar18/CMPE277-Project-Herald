@@ -1,6 +1,8 @@
 package com.heraldapp.activity;
 
 import java.io.FileInputStream;
+import java.util.HashMap;
+import java.util.Map;
 
 import android.app.Activity;
 import android.content.Context;
